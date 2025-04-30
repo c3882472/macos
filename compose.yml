@@ -5,6 +5,8 @@ services:
     environment:
       VERSION: "13"
       DISK_SIZE: "32G"
+      CPU_CORES: "3"
+      RAM_SIZE: "8G"
     devices:
       - /dev/kvm
       - /dev/net/tun
